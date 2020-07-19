@@ -18,7 +18,8 @@ class Tasks extends StatelessWidget {
       ),
       trailing: Checkbox(
         value: isChecked,
-        activeColor: Colors.lightBlueAccent,
+        checkColor: Colors.black87,
+        activeColor: Colors.lightGreenAccent,
         onChanged: callBack,
       ),
       onLongPress: longPressCallback,

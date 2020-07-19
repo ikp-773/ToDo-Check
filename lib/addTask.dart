@@ -9,7 +9,7 @@ class AddTask extends StatelessWidget {
     String newTask;
     return Container(
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Colors.black,
         borderRadius: BorderRadius.only(
           topRight: Radius.circular(30),
           topLeft: Radius.circular(30),
@@ -25,7 +25,7 @@ class AddTask extends StatelessWidget {
               'Add Task',
               textAlign: TextAlign.center,
               style: TextStyle(
-                color: Colors.lightBlueAccent,
+                color: Colors.lightGreenAccent,
                 fontSize: 35,
                 fontWeight: FontWeight.w500,
               ),
@@ -49,7 +49,7 @@ class AddTask extends StatelessWidget {
               height: 25,
             ),
             FlatButton(
-              color: Colors.lightBlueAccent,
+              color: Colors.lightGreenAccent,
               onPressed: () {
                 if (newTask != null) {
                   Provider.of<TaskData>(context, listen: false)
@@ -62,7 +62,7 @@ class AddTask extends StatelessWidget {
                 child: Text(
                   'Add',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black87,
                     fontSize: 25,
                     letterSpacing: 1,
                   ),
