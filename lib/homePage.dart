@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightGreenAccent,
+      backgroundColor: Colors.red,
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -19,11 +19,11 @@ class HomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   CircleAvatar(
-                    backgroundColor: Colors.black87,
+                    backgroundColor: Colors.white,
                     child: Icon(
                       Icons.dehaze,
                       size: 35,
-                      color: Colors.lightGreenAccent,
+                      color: Colors.red,
                     ),
                     radius: 30,
                   ),
@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(
                       fontWeight: FontWeight.w900,
                       fontSize: 50,
-                      color: Colors.black87,
+                      color: Colors.white,
                     ),
                   ),
                   Text(
@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                     style: TextStyle(
                       fontWeight: FontWeight.w500,
                       fontSize: 18,
-                      color: Colors.black87,
+                      color: Colors.white,
                     ),
                   )
                 ],
@@ -52,7 +52,7 @@ class HomePage extends StatelessWidget {
             Expanded(
               child: Container(
                 decoration: BoxDecoration(
-                  color: Colors.black87,
+                  color: Colors.white,
                   borderRadius: BorderRadius.only(
                     topLeft: Radius.circular(30),
                     topRight: Radius.circular(30),
@@ -66,11 +66,11 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Colors.lightGreenAccent,
+        backgroundColor: Colors.red,
         child: IconButton(
           icon: Icon(
             Icons.add,
-            color: Colors.black87,
+            color: Colors.white,
             size: 30,
           ),
           onPressed: () {
